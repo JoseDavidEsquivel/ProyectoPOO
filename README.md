@@ -77,6 +77,7 @@ Redactar las conclusiones del proyecto
 
 1. [Python Documentation - CSV File Reading and Writing](https://docs.python.org/3/library/csv.html)
 2. [Open Route Service](https://openrouteservice.org)
+3. [Libreria Openpyxl](https://pypi.org/project/openpyxl/)
 
 Agregar las referencias bibliográficas utilizadas
 

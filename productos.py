@@ -24,6 +24,7 @@ class Productos:  # Clase Productos
 
     def buscarProducto(self, sku: str) -> bool: # Metodo para buscar un producto
         # TODO programar el método buscarProducto()
+        print("buscarProductos") # Imprime buscarProductos
         return False # Regresa False si ocurrio un error en el metodo
 
     def borrarProducto(self, sku: str) -> bool: # Metodo para borrar un producto
@@ -37,3 +38,4 @@ class Productos:  # Clase Productos
 productos = Productos() # Crea un objeto de la clase Productos
 productos.listarProductos() # Llama al metodo listarProductos()
 productos.insertarProductos() #Llama al metodo insertarProductos()
+productos.buscarProductos() # Llama al metodo buscarProductos()

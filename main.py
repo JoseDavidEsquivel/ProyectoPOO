@@ -32,6 +32,7 @@ class Main(): # Clase principal
                 # TODO Llamar al metodo borrarProducto()
                 print("Llamar metodo borrarProducto()")
             elif opcion == "5": # Valida si la opcion elegida es el 5
+                productos.borrarProducto() #llama el metodo borrarProductos a traves del odjeto productos
                 # TODO Programar salir del programa
                 print("Salir del programa")
 

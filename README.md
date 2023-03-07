@@ -28,9 +28,9 @@ Describir las herramientas de desarrollo utilizadas para el desarrollo del proye
 |--|--|--|--|--|--|--|
 |1|Archivo productos.csv|ToDo|NA|NA|NA|NA|
 |2|Método listarProductos()|ToDo|NA|NA|NA|NA|
-|3|Método insertarProductos()|ToDo|NA|NA|NA|NA|
-|4|Método buscarProductos()|ToDo|NA|NA|NA|NA|
-|5|Método borrarProductos()|ToDo|NA|NA|NA|NA|
+|3|Método insertarProductos()|ToDo|NA|NA|David|NA|
+|4|Método buscarProductos()|ToDo|NA|NA|Eros|NA|
+|5|Método borrarProductos()|ToDo|NA|NA|Angel|NA|
 |6|Método actualizarProductos()|ToDo|NA|NA|NA|NA|
 |7|Llamar al método listarProductos() en menú|ToDo|NA|NA|NA|NA|
 |8|Llamar al método insertarProductos() en menú|ToDo|NA|NA|NA|NA|

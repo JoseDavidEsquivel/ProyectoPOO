@@ -29,7 +29,7 @@ class Productos:  # Clase Productos
 
     def borrarProducto(self, sku: str) -> bool: # Metodo para borrar un producto
         # TODO programar el método borrarProducto()
-        print("borrarProductos")
+        print("borrarProductos") #Imprime borrarProductos
         return False # Regresa False si ocurrio un error en el metodo
 
     def actualizarProducto(self, sku: str, nombre: str, unidad: str) -> bool: # Metodo para actualizar un producto

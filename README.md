@@ -14,9 +14,9 @@ Redactar los objetivos del proyecto.
 
 ## 3. Integrantes
 
-José David Esquivel Cruz
-Eros Yael Castañeda Tellez
-Miguel Angel Lira Tellez
+José David Esquivel Cruz.
+Eros Yael Castañeda Tellez.
+Miguel Angel Lira Tellez.
 
 ## 4. Herramientas de Desarrollo
 

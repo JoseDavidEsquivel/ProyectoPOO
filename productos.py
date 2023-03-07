@@ -17,22 +17,22 @@ class Productos:  # Clase Productos
             print(f"Error listarProductos() :{e.args}") # Muestra en consola el error que ocurrio
             return False # Regresa False si ocurrio un error en el metodo
 
-    def insertarProducto(self, sku: str, nombre: str, unidad: str) -> bool: # Metodo para insertar un producto
+    def insertarProductos(self): # Metodo para insertar un producto
         # TODO programar el método insertarProducto()
         print("insertarProducto") # Imprime insertarProductos
         return False # Regresa False si ocurrio un error en el metodo
 
-    def buscarProducto(self, sku: str) -> bool: # Metodo para buscar un producto
+    def buscarProductos(self): # Metodo para buscar un producto
         # TODO programar el método buscarProducto()
         print("buscarProductos") # Imprime buscarProductos
         return False # Regresa False si ocurrio un error en el metodo
 
-    def borrarProducto(self, sku: str) -> bool: # Metodo para borrar un producto
+    def borrarProductos(self) -> bool: # Metodo para borrar un producto
         # TODO programar el método borrarProducto()
         print("borrarProductos") #Imprime borrarProductos
         return False # Regresa False si ocurrio un error en el metodo
 
-    def actualizarProducto(self, sku: str, nombre: str, unidad: str) -> bool: # Metodo para actualizar un producto
+    def actualizarProductos(self) -> bool: # Metodo para actualizar un producto
         # TODO programar el método actualizarProducto()
         return False # Regresa False si ocurrio un error en el metodo
 

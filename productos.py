@@ -29,15 +29,15 @@ class Productos:  # Clase Productos
 
     def borrarProducto(self, sku: str) -> bool: # Metodo para borrar un producto
         # TODO programar el método borrarProducto()
+        print("borrarProductos")
         return False # Regresa False si ocurrio un error en el metodo
 
     def actualizarProducto(self, sku: str, nombre: str, unidad: str) -> bool: # Metodo para actualizar un producto
         # TODO programar el método actualizarProducto()
-        print("actualizarProductos") # Imprime actualizarProductos
         return False # Regresa False si ocurrio un error en el metodo
 
 productos = Productos() # Crea un objeto de la clase Productos
 productos.listarProductos() # Llama al metodo listarProductos()
 productos.insertarProductos() #Llama al metodo insertarProductos()
 productos.buscarProductos() # Llama al metodo buscarProductos()
-productos.actualizarProductos() # Llama al metodo actualizarProductos()
+productos.borrarProductos() #Llama al metodo borrarProductos()

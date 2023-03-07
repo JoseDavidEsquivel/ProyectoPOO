@@ -14,7 +14,9 @@ Redactar los objetivos del proyecto.
 
 ## 3. Integrantes
 
-Lista con las matriculas y nombres de los integrantes del equipo.
+José David Esquivel Cruz
+Eros Yael Castañeda Tellez
+Miguel Angel Lira Tellez
 
 ## 4. Herramientas de Desarrollo
 

@@ -1,4 +1,5 @@
-sku,nombre,unidad
-1,Producto 1,pieza
-3,Producto 3,pieza
-4,Producto 4,pieza
+id,sku,nombre,unidad
+1,123,Producto 1,pieza
+2,321,Producto 2,paquete
+3,456,Producto 3,pieza
+4,654,Producto 4,pieza

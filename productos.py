@@ -33,9 +33,11 @@ class Productos:  # Clase Productos
 
     def actualizarProducto(self, sku: str, nombre: str, unidad: str) -> bool: # Metodo para actualizar un producto
         # TODO programar el método actualizarProducto()
+        print("actualizarProductos") # Imprime actualizarProductos
         return False # Regresa False si ocurrio un error en el metodo
 
 productos = Productos() # Crea un objeto de la clase Productos
 productos.listarProductos() # Llama al metodo listarProductos()
 productos.insertarProductos() #Llama al metodo insertarProductos()
 productos.buscarProductos() # Llama al metodo buscarProductos()
+productos.actualizarProductos() # Llama al metodo actualizarProductos()

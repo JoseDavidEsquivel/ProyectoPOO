@@ -1,5 +1,5 @@
-id,sku,nombre,unidad
-1,123,Producto 1,pieza
-2,321,Producto 2,paquete
-3,456,Producto 3,pieza
-4,654,Producto 4,pieza
+sku,nombre,unidad
+7506267905131,jabon liquido 221ml,pieza
+321,Producto 2,paquete
+456,Producto 3,pieza
+654,Producto 4,pieza

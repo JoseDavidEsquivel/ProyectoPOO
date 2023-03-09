@@ -27,7 +27,7 @@ class Main(): # Clase principal
                  productos.buscarProdcto() # Llama al metodo buscarProductos a traves del objeto productos
             elif opcion == "3": # Valida si la opcion elegida es el 3
                 # TODO Llamar al metodo actualizarProducto()
-                print("Llamar metodo actualizarProducto()")
+                productos.actualizarProdcto() # Llama al metodo actualizarProductos a traves del objeto productos
             elif opcion == "4": # Valida si la opcion elegida es el 4
                   productos.borrarProductos() #Llama al metodo borrarProductos a traves del objeto productos 
                 # TODO Llamar al metodo borrarProducto()

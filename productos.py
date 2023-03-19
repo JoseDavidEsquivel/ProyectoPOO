@@ -27,7 +27,7 @@ class Productos:  # Clase Productos
         print("buscarProductos") # Imprime buscarProductos
         return False # Regresa False si ocurrio un error en el metodo
 
-    def borrarProductos(self) -> bool: # Metodo para borrar un producto
+  # Metodo para borrar un producto
        def borrarProducto(self, productos_csv, sku): 
         # define una función llamada borrar_producto que recibe el nombre del archivo, y el sku que es por el cual se va a borrar el producto 
 
@@ -47,7 +47,7 @@ class Productos:  # Clase Productos
 
         # reemplazar el archivo original con el archivo de salida
         import os
-        os.replace('temp.csv', archivo_csv)
+        os.replace('temp.csv', productos_csv)
 
     def actualizarProductos(self) -> bool: # Metodo para actualizar un producto
         # TODO programar el método actualizarProducto()

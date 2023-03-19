@@ -6,12 +6,16 @@ Plantilla inicial versión 0.07032023.1
 
 ## 1. Introducción
 
-Redactar una introducción al proyecto.
+En este proyecto, trabajaremos en equipo para crear un programa en donde podamos insertar, buscar, actualizar y borrar productos de una lista, para eso tenemos que 
+trabajar en equipo y exponer los puntos de nuestro proyecto, asi como proponer una idea original y defenderla.
 
 ## 2. Objetivos
-
-Redactar los objetivos del proyecto.
-
+1.- Lograr el trabajo en equipo, teniendo buena comunicacion.
+2.-hacer que los metodos principales (buscar, actualizar, insertar y borrar) funcionen correctamente 
+3.-aprender y comprender los comandos de python
+4.-aprender a trabajar con algo nuevo
+5.-aprender a solucionar problemas relacionados con la comunicacion de equipo 
+6.-exponer conociendo el tema sabiendoo que hace el programa 
 ## 3. Integrantes
 
 José David Esquivel Cruz.
@@ -19,7 +23,7 @@ Eros Yael Castañeda Tellez.
 Miguel Angel Lira Tellez.
 
 ## 4. Herramientas de Desarrollo
-
+Se usara los documentos csv por ahora. 
 Describir las herramientas de desarrollo utilizadas para el desarrollo del proyecto
 
 ## 5. Planeación de actividades y asignación de tareas
@@ -35,7 +39,7 @@ Describir las herramientas de desarrollo utilizadas para el desarrollo del proye
 |7|Llamar al método listarProductos() en menú|ToDo|NA|NA|NA|NA|
 |8|Llamar al método insertarProductos() en menú|ToDo|NA|NA|NA|NA|
 |9|Llamar al método buscarProductos() en menú|ToDo|NA|NA|NA|NA|
-|10|Llamar al método borrarProductos() en menú|ToDo|NA|NA|NA|NA|
+|10|Llamar al método borrarProductos() en menú|ToDo|NA|NA|Angel|NA|
 |11|Llamar al método actualizarProductos() en menú|ToDo|NA|NA|NA|NA|
 |12|Archivo tiendas.csv|ToDo|NA|NA|NA|NA|
 |13|Método listarTiendas()|ToDo|NA|NA|NA|NA|

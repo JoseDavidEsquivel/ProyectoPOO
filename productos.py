@@ -28,10 +28,10 @@ class Productos:  # Clase Productos
         return False # Regresa False si ocurrio un error en el metodo
 
     def borrarProductos(self) -> bool: # Metodo para borrar un producto
-       def borrarProducto(self, archivo_csv, sku): 
+       def borrarProducto(self, productos_csv, sku): 
         # define una función llamada borrar_producto que recibe el nombre del archivo, y el sku que es por el cual se va a borrar el producto 
 
-        with open(archivo_csv, 'r', newline='') as archivo, open('temp.csv', 'w', newline='') as archivo_temp:
+        with open(productos_csv, 'r', newline='') as archivo, open('temp.csv', 'w', newline='') as archivo_temp:
             # abre dos archivos en modo de lectura y escritura respectivamente, utilizando la función open() de Python.
 
             lector_csv = csv.reader(archivo) 

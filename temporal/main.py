@@ -16,6 +16,7 @@ class Main(): # Clase principal
             print("3.- Actualizar producto") # Opcion para actualizar un producto
             print("4.- Borrar producto") # Opcion para borrar un producto
             print("s.- Salir") # Opcion para salir del sistema
+            print("") # Espacio de tolerancia
             opcion = input("Seleccione una opcion: ") # Solicita al usuario que seleccione una opcion del menu
             if opcion == "0": # Valida si la opcion elegida es el 0
                 productos.listarProductos() # Llama al metodo listarProductos a traves del objeto productos
@@ -28,7 +29,14 @@ class Main(): # Clase principal
             elif opcion == "4": # Valida si la opcion elegida es el 4
                 productos.borrarProducto() #Llama al metodo borrarProductos a traves del objeto productos 
             elif opcion == "s": # Valida si la opcion elegida es el 5
+                print("")
                 print("Saliendo del programa")
+                print("")
+                return False
+            elif opcion == "S": # Valida si la opcion elegida es el 5
+                print("")
+                print("Saliendo del programa")
+                print("")
                 return False
 
             # TODO rediseñar el menu para agregar los submenus necesarios

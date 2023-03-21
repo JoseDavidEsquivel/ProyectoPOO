@@ -75,7 +75,7 @@ Describir las herramientas de desarrollo utilizadas para el desarrollo del proye
 |42|Capturar las Herramientas de desarrollo|ToDo|NA|NA|NA|NA|
 |43|Capturar las Conclusiones|ToDo|NA|NA|NA|NA|
 |44|Capturar la Bibliografía|ToDo|NA|NA|NA|NA|
-|45|Tabla de problemas y soluciones|Doing|NA|NA|NA|NA|
+|45|Tabla de problemas y soluciones|Doing|13-03-2023|20-03-2023|Eros|NA|
 |46|Llamar al metodo principaltiendas.menuTiendas()|Done|17-03-2023|20-03-2023|David|NA|
 |47|Llamar al metodo principalproductos.menuProductos()|Done|17-03-2023|20-03-2023|David|NA|
 

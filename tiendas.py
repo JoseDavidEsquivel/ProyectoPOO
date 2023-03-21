@@ -1,4 +1,5 @@
 import csv  # Librería para abrir, leer y escribir archivos CSV
+import os  # Importa el modulo os
 
 
 class Tiendas:  # Clase Tiendas

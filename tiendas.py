@@ -58,7 +58,7 @@ class Tiendas:  # Clase Tiendas
                 return False # Regresa False si ocurrio un error en el metodo
 
 
-    def buscarTiendas(self) -> bool: # Metodo para buscar tiendas
+    def buscarTienda(self) -> bool: # Metodo para buscar tiendas
         try: # Prueba el codigo y si ocurre una Excepcion la atrapa
             with open("tiendas.csv", "r") as file: # Abre el archivo para poder leer filas de informacion
                 reader = csv.DictReader(file, delimiter=",") # Crer un objeto reader para leer los registros separandolos por el delimitador ,
@@ -67,7 +67,7 @@ class Tiendas:  # Clase Tiendas
                 encontrado = False # Variable para indicar si se encontró la tienda o no
 
                 for row in reader: # Recorre todos los registros encontrados y almacena temporalmente cada uno en row
-                    if row['ID'] == id_buscar: # Compara el id buscando
+                    if row['id'] == id_buscar: # Compara el id buscando
                         print(f"Registro encontrado: {row}") # Imprime la fila encontrada
                         encontrado = True # Marca la tienda como encontrada
                         break # Termina el bucle ya que se encontró el producto
@@ -135,10 +135,10 @@ class Tiendas:  # Clase Tiendas
                 print("") # Espacio de tolerancia a la hora de imprimir el programa
 
 tiendas = Tiendas()
-#tiendas.borrarTienda() # Llamada al metodo para borrar un producto
-#tiendas.insertarTienda() # Llamada al metodo para insertar un producto
-#tiendas.listarTiendas() # Llamada al metodo para listar un producto
-#tiendas.buscarTienda() # Llamada al metodo para buscar un producto
-#tiendas.actualizarTienda() # Llamada al metodo para actualizar un producto
+#tiendas.borrarTienda() # Llamada al metodo para borrar una tienda
+#tiendas.insertarTienda() # Llamada al metodo para insertar una tienda
+#tiendas.listarTienda() # Llamada al metodo para listar una tienda
+#tiendas.buscarTienda() # Llamada al metodo para buscar una tienda
+#tiendas.actualizarTienda() # Llamada al metodo para actualizar una tienda
 
 

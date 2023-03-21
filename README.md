@@ -80,7 +80,7 @@ Describir las herramientas de desarrollo utilizadas para el desarrollo del proye
 
 |No|Identificación del problema|Causa|Alternativas de solución|Toma de decisión con argumento|
 |--|--|--|--|--|
-|1|Problema 1|Causa 1|Alternativa 1|Decisión 1|
+|1|Distribución de tareas|Salida de un compañero|Distribuir de manera correcta el trabajo|Decidir quien iba hacer que cosa de manera uniforme|
 
 
 ## 7. Conclusiones:

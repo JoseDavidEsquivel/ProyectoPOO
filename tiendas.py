@@ -10,15 +10,15 @@ class Tiendas:  # Clase Tiendas
         # TODO programar el método listarTiendas()
         return False  # Regresa False si ocurrio un error en el metodo
 
-    def insertarTienda(self) -> bool:  # Metodo para insertar una tienda
+    def insertarTiendas(self) -> bool:  # Metodo para insertar una tienda
         # TODO programar el método insertarTienda()
         return False  # Regresa False si ocurrio un error en el metodo
 
-    def buscarTienda(self, nombre: str) -> bool:  # Metodo para buscar tiendas por nombre
+    def buscarTiendas(self, nombre: str) -> bool:  # Metodo para buscar tiendas por nombre
         # TODO programar el método buscarTienda()
         return False  # Regresa False si ocurrio un error en el metodo
 
-     def borrarTienda(self, direccion: str) -> bool:  # Metodo para borrar tiendas por direccion
+     def borrarTiendas(self, direccion: str) -> bool:  # Metodo para borrar tiendas por direccion
         with open('tiendas.csv', 'r', newline='') as archivo, open('temp.csv', 'w', newline='') as archivo_temp:
             # abre dos archivos en modo de lectura y escritura respectivamente, utilizando la función open() de Python.
 
@@ -37,9 +37,9 @@ class Tiendas:  # Clase Tiendas
         import os
         os.replace('temp.csv', 'tiendas.csv')
 
-    def actualizarTienda(self) -> bool:  # Metodo para actualizar los datos de un tienda
+    def actualizarTiendas(self) -> bool:  # Metodo para actualizar los datos de un tienda
         # TODO programar el método actualizarTienda()
         return False  # Regresa False si ocurrio un error en el metodo
 
     tiendas = Tiendas()
-tiendas.borrarTienda("Calle 123")
+tiendas.borrarTiendas("Calle 123")

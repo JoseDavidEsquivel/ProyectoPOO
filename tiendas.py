@@ -63,3 +63,4 @@ class Tiendas:  # Clase Tiendas
 
     tiendas = Tiendas()
 tiendas.borrarTiendas("Calle 123")
+tiendas.buscarTiendas() # Llama al metodo buscarTiendas()

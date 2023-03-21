@@ -18,7 +18,7 @@ class Tiendas:  # Clase Tiendas
         # TODO programar el método buscarTienda()
         return False  # Regresa False si ocurrio un error en el metodo
 
-     def borrarTiendas(self, direccion: str) -> bool:  # Metodo para borrar tiendas por direccion
+    def borrarTiendas(self, direccion: str) -> bool:  # Metodo para borrar tiendas por direccion
         with open('tiendas.csv', 'r', newline='') as archivo, open('temp.csv', 'w', newline='') as archivo_temp:
             # abre dos archivos en modo de lectura y escritura respectivamente, utilizando la función open() de Python.
 

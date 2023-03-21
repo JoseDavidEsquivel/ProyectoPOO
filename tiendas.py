@@ -14,7 +14,7 @@ class Tiendas:  # Clase Tiendas
         # TODO programar el método insertarTienda()
         return False  # Regresa False si ocurrio un error en el metodo
 
- def buscarTiendas(self) -> bool: # Metodo para buscar tiendas
+    def buscarTiendas(self) -> bool: # Metodo para buscar tiendas
         try: # Prueba el codigo y si ocurre una Excepcion la atrapa
             with open("tiendas.csv", "r") as file: # Abre el archivo para poder leer filas de informacion
                 reader = csv.DictReader(file, delimiter=",") # Crer un objeto reader para leer los registros separandolos por el delimitador ,
@@ -37,25 +37,23 @@ class Tiendas:  # Clase Tiendas
             print(f"Error buscarTienda(): {e.args}") # Muestra en consola el error que ocurrio
             return False  # Regresa False si ocurrio un error en el metodo
 
+    def borrarTienda(self) -> bool: # Metodo para borrar tiendas por direccion
+        with open('tiendas.csv', 'r', newline='') as archivo, open('temp.csv', 'w', newline='') as archivo_temp: # abre dos archivos en modo de lectura y escritura respectivamente, utilizando la función open() de Python.
+                lector_csv = csv.reader(archivo)  # se crea un objeto csv.reader que permite iterar por cada fila del archivo CSV y se asigna a la variable lector_csv
+                escritor_csv = csv.writer(archivo_temp)  # También se crea un objeto csv.writer que permite escribir en el archivo temporal y se asigna a la variable escritor_csv
 
-    def borrarTiendas(self, direccion: str) -> bool:  # Metodo para borrar tiendas por direccion
-        with open('tiendas.csv', 'r', newline='') as archivo, open('temp.csv', 'w', newline='') as archivo_temp:
-            # abre dos archivos en modo de lectura y escritura respectivamente, utilizando la función open() de Python.
+                id = input("Inserte ID de la tienda: ") # Input para borrar el sku correspondiente
+                for fila in lector_csv: # Recorre todos los registros de "productos.csv"
+                    if fila[0] != id: # si la fila no contiene el producto que deseas borrar, escribirla en el archivo de salida
+                        escritor_csv.writerow(fila) # Utiliza el objeto "writer" para poder sobreescribir la fila de informacion del csv con el metodo de la libreria CSV "writerow()"
+                    
 
-            lector_csv = csv.reader(archivo) 
-            # se crea un objeto csv.reader que permite iterar por cada fila del archivo CSV y se asigna a la variable lector_csv
+        import os # Importa el modulo os
+        os.replace('temp.csv', 'tiendas.csv') # reemplazar el archivo original con el archivo de salida
 
-            escritor_csv = csv.writer(archivo_temp) 
-            # También se crea un objeto csv.writer que permite escribir en el archivo temporal y se asigna a la variable escritor_csv
-
-            for fila in lector_csv:
-                # si la fila no contiene la tienda que deseas borrar, escribirla en el archivo de salida
-                if fila[1] != direccion:
-                    escritor_csv.writerow(fila)
-
-        # reemplazar el archivo original con el archivo de salida
-        import os
-        os.replace('temp.csv', 'tiendas.csv')
+        print("") # Espacio de tolerancia a la hora de imprimir el programa
+        print("Tienda borrada con exito")
+        print("") # Espacio de tolerancia a la hora de imprimir el programa
 
     def actualizarTiendas(self) -> bool:  # Metodo para actualizar los datos de un tienda
         # TODO programar el método actualizarTienda()

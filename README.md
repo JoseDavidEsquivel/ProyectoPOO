@@ -16,6 +16,7 @@ trabajar en equipo y exponer los puntos de nuestro proyecto, asi como proponer u
 4.-aprender a trabajar con algo nuevo
 5.-aprender a solucionar problemas relacionados con la comunicacion de equipo 
 6.-exponer conociendo el tema sabiendoo que hace el programa 
+
 ## 3. Integrantes
 
 José David Esquivel Cruz.
@@ -31,27 +32,27 @@ Describir las herramientas de desarrollo utilizadas para el desarrollo del proye
 |No.|Función|Estado|Fecha programada|Fecha realizada|Responsable|Descripción|
 |--|--|--|--|--|--|--|
 |1|Archivo productos.csv|ToDo|NA|NA|NA|NA|
-|2|Método listarProductos()|Done|NA|NA|NA|NA|
-|3|Método insertarProductos()|Done|NA|NA|David|NA|
-|4|Método buscarProductos()|Done|NA|NA|Eros|NA|
-|5|Método borrarProductos()|Done|NA|NA|Angel|NA|
-|6|Método actualizarProductos()|Done|NA|NA|David|NA|
-|7|Llamar al método listarProductos() en menú|Done|NA|NA|David|NA|
-|8|Llamar al método insertarProductos() en menú|Done|NA|NA|David|NA|
-|9|Llamar al método buscarProductos() en menú|Done|NA|NA|Eros|NA|
-|10|Llamar al método borrarProductos() en menú|Done|NA|NA|Angel|NA|
-|11|Llamar al método actualizarProductos() en menú|Done|NA|NA|David|NA|
+|2|Método listarProductos()|Done|07-03-2023|20-03-23|NA|NA|
+|3|Método insertarProductos()|Done|07-03-2023|20-03-23|David|NA|
+|4|Método buscarProductos()|Done|07-03-2023|20-03-23|Eros|NA|
+|5|Método borrarProductos()|Done|07-03-2023|20-03-23|Angel|NA|
+|6|Método actualizarProductos()|Done|07-03-2023|20-03-23|David|NA|
+|7|Llamar al método listarProductos() en menú|Done|07-03-2023|20-03-23|David|NA|
+|8|Llamar al método insertarProductos() en menú|Done|07-03-2023|20-03-23|David|NA|
+|9|Llamar al método buscarProductos() en menú|Done|07-03-2023|20-03-23|Eros|NA|
+|10|Llamar al método borrarProductos() en menú|Done|07-03-2023|20-03-23|Angel|NA|
+|11|Llamar al método actualizarProductos() en menú|Done|07-03-2023|20-03-23|David|NA|
 |12|Archivo tiendas.csv|ToDo|NA|NA|NA|NA|
-|13|Método listarTiendas()|Done|NA|NA|David|NA|
-|14|Método insertarTiendas()|Done|NA|NA|David|NA|
-|15|Método buscarTiendas()|Done|NA|NA|Eros|NA|
-|16|Método borrarTiendas()|Done|NA|NA|Angel|NA|
-|17|Método actualizarTiendas()|Done|NA|NA|David|NA|
-|18|Llamar al método listarTiendas() en menú|ToDo|NA|NA|David|NA|
-|19|Llamar al método insertarTiendas() en menú|ToDo|NA|NA|David|NA|
-|20|Llamar al método buscarTiendas() en menú|ToDo|NA|NA|Eros|NA|
-|21|Llamar al método borrarTiendas() en menú|ToDo|NA|NA|Angel|NA|
-|22|Llamar al método actualizarTiendas() en menú|ToDo|NA|NA|David|NA|
+|13|Método listarTiendas()|Done|07-03-2023|20-03-23|David|NA|
+|14|Método insertarTiendas()|Done|07-03-2023|20-03-23|David|NA|
+|15|Método buscarTiendas()|Done|07-03-2023|20-03-23|Eros|NA|
+|16|Método borrarTiendas()|Done|07-03-2023|20-03-23|Angel|NA|
+|17|Método actualizarTiendas()|Done|07-03-2023|20-03-23|David|NA|
+|18|Llamar al método listarTiendas() en menú|Done|07-03-2023|20-03-23|David|NA|
+|19|Llamar al método insertarTiendas() en menú|Done|07-03-2023|20-03-23|David|NA|
+|20|Llamar al método buscarTiendas() en menú|Done|07-03-2023|20-03-23|Eros|NA|
+|21|Llamar al método borrarTiendas() en menú|Done|07-03-2023|20-03-23|Angel|NA|
+|22|Llamar al método actualizarTiendas() en menú|Done|07-03-2023|20-03-23|David|NA|
 |23|Archivo despensa.csv|ToDo|NA|NA|NA|NA|
 |24|Método listarCompras()|ToDo|NA|NA|NA|NA|
 |25|Método insertarCompra()|ToDo|NA|NA|NA|NA|

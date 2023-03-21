@@ -24,7 +24,7 @@ Eros Yael Castañeda Tellez.
 Miguel Angel Lira Tellez.
 
 ## 4. Herramientas de Desarrollo
-Se usara los documentos csv por ahora. 
+Se usara los documentos csv por ahora. Githud como repositorio, replit, visual studio code.
 Describir las herramientas de desarrollo utilizadas para el desarrollo del proyecto
 
 ## 5. Planeación de actividades y asignación de tareas

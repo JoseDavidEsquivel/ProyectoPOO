@@ -52,7 +52,7 @@ class Productos:  # Clase Productos
                 print(f"Error insertarProducto() :{e.args}") # Muestra en consola el error que ocurrio
                 return False # Regresa False si ocurrio un error en el metodo
 
-   def buscarProducto(self) -> bool: # Metodo para buscar productos
+    def buscarProducto(self) -> bool: # Metodo para buscar productos
         try: # Prueba el codigo y si ocurre una Excepcion la atrapa
             with open("productos.csv", "r") as file: # Abre el archivo para poder leer filas de informacion
                 reader = csv.DictReader(file, delimiter=",") # Crer un objeto reader para leer los registros separandolos por el delimitador ,
@@ -75,28 +75,23 @@ class Productos:  # Clase Productos
             print(f"Error buscarProducto(): {e.args}") # Muestra en consola el error que ocurrio
             return False  # Regresa False si ocurrio un error en el metodo
 
-  # Metodo para borrar un producto
-       def borrarProducto(self, productos_csv, sku): 
-        # define una función llamada borrar_producto que recibe el nombre del archivo, y el sku que es por el cual se va a borrar el producto 
+    def borrarProducto(self) -> bool: # Metodo para borrar un producto
+            with open('productos.csv', 'r', newline='') as archivo, open('temp.csv', 'w', newline='') as archivo_temp: # abre dos archivos en modo de lectura y escritura respectivamente, utilizando la función open() de Python.
+                lector_csv = csv.reader(archivo)  # se crea un objeto csv.reader que permite iterar por cada fila del archivo CSV y se asigna a la variable lector_csv
+                escritor_csv = csv.writer(archivo_temp)  # También se crea un objeto csv.writer que permite escribir en el archivo temporal y se asigna a la variable escritor_csv
 
-        with open(productos_csv, 'r', newline='') as archivo, open('temp.csv', 'w', newline='') as archivo_temp:
-            # abre dos archivos en modo de lectura y escritura respectivamente, utilizando la función open() de Python.
+                sku = input("Inserte SKU: ") # Input para borrar el sku correspondiente
+                for fila in lector_csv: # Recorre todos los registros de "productos.csv"
+                    if fila[0] != sku: # si la fila no contiene el producto que deseas borrar, escribirla en el archivo de salida
+                        escritor_csv.writerow(fila) # Utiliza el objeto "writer" para poder sobreescribir la fila de informacion del csv con el metodo de la libreria CSV "writerow()"
+                    
 
-            lector_csv = csv.reader(archivo) 
-            # se crea un objeto csv.reader que permite iterar por cada fila del archivo CSV y se asigna a la variable lector_csv
+            import os # Importa el modulo os
+            os.replace('temp.csv', 'productos.csv') # reemplazar el archivo original con el archivo de salida
 
-            escritor_csv = csv.writer(archivo_temp) 
-            # También se crea un objeto csv.writer que permite escribir en el archivo temporal y se asigna a la variable escritor_csv
-
-            for fila in lector_csv:
-                # si la fila no contiene el producto que deseas borrar, escribirla en el archivo de salida
-                if fila[0] != sku:
-                    escritor_csv.writerow(fila)
-
-        # reemplazar el archivo original con el archivo de salida
-        import os
-        os.replace('temp.csv', productos_csv)
-
+            print("") # Espacio de tolerancia a la hora de imprimir el programa
+            print("Producto borrado con exito")
+            print("") # Espacio de tolerancia a la hora de imprimir el programa
     def actualizarProductos(self) -> bool: # Metodo para actualizar un producto
         # TODO programar el método actualizarProducto()
         return False # Regresa False si ocurrio un error en el metodo

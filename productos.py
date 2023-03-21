@@ -52,11 +52,7 @@ class Productos:  # Clase Productos
                 print(f"Error insertarProducto() :{e.args}") # Muestra en consola el error que ocurrio
                 return False # Regresa False si ocurrio un error en el metodo
 
-    def buscarProductos(self): # Metodo para buscar un producto
-        # TODO programar el método buscarProducto()
-        print("buscarProductos") # Imprime buscarProductos
-        return False # Regresa False si ocurrio un error en el metodo
-    def buscarProducto(self) -> bool: # Metodo para buscar productos
+   def buscarProducto(self) -> bool: # Metodo para buscar productos
         try: # Prueba el codigo y si ocurre una Excepcion la atrapa
             with open("productos.csv", "r") as file: # Abre el archivo para poder leer filas de informacion
                 reader = csv.DictReader(file, delimiter=",") # Crer un objeto reader para leer los registros separandolos por el delimitador ,

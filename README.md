@@ -84,7 +84,7 @@ Describir las herramientas de desarrollo utilizadas para el desarrollo del proye
 |No|Identificación del problema|Causa|Alternativas de solución|Toma de decisión con argumento|
 |--|--|--|--|--|
 |1|Distribución de tareas|Salida de un compañero|Distribuir de manera correcta el trabajo|Decidir quien iba hacer que cosa de manera uniforme|
-
+|2|Checar el codigo|Uno de los integrantes no sabia como probar su codigo|Buscar la manera que todos podamos probar wl codigo|
 
 ## 7. Conclusiones:
 

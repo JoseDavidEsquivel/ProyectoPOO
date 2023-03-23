@@ -36,7 +36,7 @@ Describir las herramientas de desarrollo utilizadas para el desarrollo del proye
 |3|Método insertarProductos()|Done|07-03-2023|20-03-23|David|NA|
 |4|Método buscarProductos()|Done|07-03-2023|20-03-23|Eros|NA|
 |5|Método borrarProductos()|Done|07-03-2023|20-03-23|Angel|NA|
-|6|Método actualizarProductos()|Done|07-03-2023|20-03-23|David|NA|
+|6|Método actualizarProductos()|Done|07-03-2023|23-03-23|David|NA|
 |7|Llamar al método listarProductos() en menú|Done|07-03-2023|20-03-23|David|NA|
 |8|Llamar al método insertarProductos() en menú|Done|07-03-2023|20-03-23|David|NA|
 |9|Llamar al método buscarProductos() en menú|Done|07-03-2023|20-03-23|Eros|NA|
@@ -47,7 +47,7 @@ Describir las herramientas de desarrollo utilizadas para el desarrollo del proye
 |14|Método insertarTiendas()|Done|07-03-2023|20-03-23|David|NA|
 |15|Método buscarTiendas()|Done|07-03-2023|20-03-23|Eros|NA|
 |16|Método borrarTiendas()|Done|07-03-2023|20-03-23|Angel|NA|
-|17|Método actualizarTiendas()|Done|07-03-2023|20-03-23|David|NA|
+|17|Método actualizarTiendas()|Done|07-03-2023|23-03-23|David|NA|
 |18|Llamar al método listarTiendas() en menú|Done|07-03-2023|20-03-23|David|NA|
 |19|Llamar al método insertarTiendas() en menú|Done|07-03-2023|20-03-23|David|NA|
 |20|Llamar al método buscarTiendas() en menú|Done|07-03-2023|20-03-23|Eros|NA|

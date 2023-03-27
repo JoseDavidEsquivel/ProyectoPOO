@@ -85,6 +85,7 @@ Describir las herramientas de desarrollo utilizadas para el desarrollo del proye
 |--|--|--|--|--|
 |1|Distribución de tareas|Salida de un compañero|Distribuir de manera correcta el trabajo|Decidir quien iba hacer que cosa de manera uniforme|
 |2|Checar el codigo|Uno de los integrantes no sabia como probar su codigo|Buscar la manera que todos podamos probar wl codigo|
+|3|carga de trabajo|falta de conocimiento, eso provoca que otros integrantes realizen mas trabajo|buscar mas fuentes de informacion e aprendizaje|ponerle mas empeño al entender que hace el proyecto y saber como realizarlo|
 
 ## 7. Conclusiones:
 

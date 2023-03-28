@@ -54,17 +54,17 @@ Describir las herramientas de desarrollo utilizadas para el desarrollo del proye
 |21|Llamar al método borrarTiendas() en menú|Done|07-03-2023|20-03-23|Angel|NA|
 |22|Llamar al método actualizarTiendas() en menú|Done|07-03-2023|20-03-23|David|NA|
 |23|Archivo despensa.csv|ToDo|NA|NA|NA|NA|
-|24|Método listarCompras()|ToDo|NA|NA|NA|NA|
-|25|Método insertarCompra()|ToDo|NA|NA|NA|NA|
-|26|Método buscarComprasFecha()|ToDo|NA|NA|NA|NA|
-|27|Método borrarCompra()|ToDo|NA|NA|NA|NA|
-|28|Método actualizarCompra()|ToDo|NA|NA|NA|NA|
+|24|Método listarCompras()|Done|23-03-2023|28-03-2023|Eros|NA|
+|25|Método insertarCompra()|Done|23-03-2023|28-03-2023|David|NA|
+|26|Método buscarComprasFecha()|Done|23-03-2023|28-03-2023|Eros|NA|
+|27|Método borrarCompra()|Done|23-03-2023|28-03-2023|Angel|NA|
+|28|Método actualizarCompra()|Done|23-03-2023|28-03-2023|David|NA|
 |29|Método valorMinimoProducto()|ToDo|NA|NA|NA|NA|
 |30|Método valorMaximoProducto()|ToDo|NA|NA|NA|NA|
-|31|Llamar al método listarCompras()|ToDo|NA|NA|NA|NA|
-|32|Llamar al método insertarCompra()|ToDo|NA|NA|NA|NA|
-|33|Llamar al método buscarComprasFecha()|ToDo|NA|NA|NA|NA|
-|34|Llamar al método borrarCompra()|ToDo|NA|NA|NA|NA|
+|31|Llamar al método listarCompras()|Done|23-03-2023|28-03-2023|Eros|NA|
+|32|Llamar al método insertarCompra()|Done|23-03-2023|28-03-2023|David|NA|
+|33|Llamar al método buscarComprasFecha()|Done|23-03-2023|28-03-2023|Eros|NA|
+|34|Llamar al método borrarCompra()|Done|23-03-2023|28-03-2023|Angel|NA|
 |35|Llamar al método valorMinimoProducto()|ToDo|NA|NA|NA|NA|
 |36|Llamar al método valorMaximoProducto()|ToDo|NA|NA|NA|NA|
 |37|Completar el método menu() con los submenus necesarios|ToDo|NA|NA|NA|NA|

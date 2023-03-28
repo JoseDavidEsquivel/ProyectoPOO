@@ -47,9 +47,23 @@ class Despensa:  # Clase Despensa
 
 
     def borrarDespensa(self,id:int) -> None: # Metodo para borrarDespensa()
-        # TODO programar el método borrarDespensa()
-        return False # Regresa False si ocurrio un error en el metodo
+       
+            with open('despensa.csv', 'r', newline='') as archivo, open('temp.csv', 'w', newline='') as archivo_temp: # abre dos archivos en modo de lectura y escritura respectivamente, utilizando la función open() de Python.
+                lector_csv = csv.reader(archivo)  # se crea un objeto csv.reader que permite iterar por cada fila del archivo CSV y se asigna a la variable lector_csv
+                escritor_csv = csv.writer(archivo_temp)  # También se crea un objeto csv.writer que permite escribir en el archivo temporal y se asigna a la variable escritor_csv
 
+                id = input("Inserte ID: ") # Input para borrar el sku correspondiente
+                for fila in lector_csv: # Recorre todos los registros de "productos.csv"
+                    if fila[0] != id: # si la fila no contiene el producto que deseas borrar, escribirla en el archivo de salida
+                        escritor_csv.writerow(fila) # Utiliza el objeto "writer" para poder sobreescribir la fila de informacion del csv con el metodo de la libreria CSV "writerow()"
+
+            import os#importa al modo os
+            os.replace('temp.csv', 'despensa.csv') # reemplazar el archivo original con el archivo de salida
+
+            print("") # Espacio de tolerancia a la hora de imprimir el programa
+            print("despensa borrada con exito")
+            print("") # Espacio de tolerancia a la hora de imprimir el programa
+            
     def actualizarDespensa(self) -> None: # Metodo para actualizarDespensa()
         # TODO programar el método actualizarDespensa()
         return False # Regresa False si ocurrio un error en el metodo
@@ -65,3 +79,4 @@ class Despensa:  # Clase Despensa
 despensa = Despensa() # Crea un objeto de la clase despensa
 despensa.listarDespensa() # Llama al metodo listarDespensa()
 despensa.buscarDespensa() # Llama al metodo buscarDespensa()
+despensa.borrarDespensa(id) # Llama al metodo borrarDespensa usando el id como argumento

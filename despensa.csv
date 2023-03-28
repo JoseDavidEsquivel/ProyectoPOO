@@ -1,2 +1,2 @@
-id_compra,id_tienda,id_producto,fecha,precio_unitario,cantidad,precio_total
+id_compra,id_tienda,sku,fecha,precio_unitario,cantidad,precio_total
 1,3,2,03/04/23,50,2,100

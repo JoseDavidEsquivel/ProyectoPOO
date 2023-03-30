@@ -1,7 +1,9 @@
 from tiendas import Tiendas # Importa el modulo Tiendas
 from productos import Productos # Importa el modulo Productos
+from despensa import Despensa # Importa el modulo Despensas
 from maintiendas import MainTiendas # Importa el modulo MainTiendas
 from mainproductos import MainProductos # Importa el modulo MainProductos
+from maindespensa import MainDespensa # Importa el modulo MainDespensa
 
 #TODO importar Despensa
 
@@ -11,12 +13,14 @@ class Main(): # Clase principal
         pass # inicializa el objeto Main
 
     def menu(self): # Metodo que muestra el menu del sistema
-        principaltiendas = MainTiendas() # Crea un objeto de la clase Main
-        principalproductos = MainProductos() # Crea un objeto de la clase Main
+        principaltiendas = MainTiendas() # Crea un objeto de la clase Main Tiendas
+        principalproductos = MainProductos() # Crea un objeto de la clase Main Productos
+        principaldespensa = MainDespensa() # Crea un objeto de la clase Main Despensa
         
         while True: # Bucle infinito para mostrar las opciones del sistema
-            print("0.- Ingresar al menu de Tiendas") # Opcion para listar los prodcutos
-            print("1.- Ingresar al menu de Productos") # Opcion para insertar un nuevo producto
+            print("0.- Ingresar al menu de Tiendas") # Menciona la opcion para entrar al menu de Tiendas
+            print("1.- Ingresar al menu de Productos") # Menciona la opcion para entrar al menu de Producots
+            print("2.- Ingresar al menu de Despensa") # Menciona la opcion para entrar al menu de Despensa
             
             print("s.- Salir") # Opcion para salir del sistema
             print("") # Espacio de tolerancia
@@ -25,16 +29,18 @@ class Main(): # Clase principal
                 principaltiendas.menuTiendas() # Llama al metodo menu a traves del objeto principal
             elif opcion == "1": # Valida si la opcion elegida es el 1              
                 principalproductos.menuProductos() # Llama al metodo menu a traves del objeto principal
+            elif opcion == "2": # Valida si la opcion elegida es el 1              
+                principaldespensa.menuDespensa() # Llama al metodo menu a traves del objeto principal
             elif opcion == "s": # Valida si la opcion elegida es el 5
-                print("")
-                print("Saliendo del programa")
-                print("")
-                return False
+                print("") # Espacio de tolerancia
+                print("Saliendo del programa") # Notificacion de salida de programa
+                print("") # Espacio de tolerancia
+                return False # Regresa un "False" para terminar con el bucle
             elif opcion == "S": # Valida si la opcion elegida es el 5
-                print("")
-                print("Saliendo del programa")
-                print("")
-                return False
+                print("") # Espacio de tolerancia
+                print("Saliendo del programa") # Notificacion de salida de programa
+                print("") # Espacio de tolerancia
+                return False # Regresa un "False" para terminar con el bucle
 
             # TODO rediseñar el menu para agregar los submenus necesarios
 

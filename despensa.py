@@ -72,7 +72,7 @@ class Despensa:  # Clase Despensa
             print("La compra ha sido añadida correctamente") # Le informa al usuario que el producto a sido añadido de forma exitosa
             print("") # Espacio de tolerancia a la hora de imprimir el programa
 
-  def buscarDespensa(self) -> bool: # Metodo para buscar despensa
+    def buscarDespensa(self) -> bool: # Metodo para buscar despensa
         try: # Prueba el codigo y si ocurre una Excepcion la atrapa
             with open("despensa.csv", "r") as file: # Abre el archivo para poder leer filas de informacion
                 reader = csv.DictReader(file, delimiter=",") # Crer un objeto reader para leer los registros separandolos por el delimitador ,

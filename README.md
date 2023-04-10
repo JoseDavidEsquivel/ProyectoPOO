@@ -7,15 +7,17 @@ Plantilla inicial versión 0.07032023.1
 ## 1. Introducción
 
 En este proyecto, trabajaremos en equipo para crear un programa en donde podamos insertar, buscar, actualizar y borrar productos de una lista, para eso tenemos que 
-trabajar en equipo y exponer los puntos de nuestro proyecto, asi como proponer una idea original y defenderla.
+trabajar en equipo y exponer los puntos de nuestro proyecto, asi como proponer una idea original y defenderla. Tambien se tomara en cuenta lo visto en la materia de Formacion Sociocultural, es decir se tomara en cuenta el desempeño que se tenga al trabajar en equipo mediante una tabla donde se identificaran todos los problemas que ocurran en el transcurso de la realizacion del proyecto.
 
 ## 2. Objetivos
 1.- Lograr el trabajo en equipo, teniendo buena comunicacion.
-2.-hacer que los metodos principales (buscar, actualizar, insertar y borrar) funcionen correctamente 
-3.-aprender y comprender los comandos de python
-4.-aprender a trabajar con algo nuevo
-5.-aprender a solucionar problemas relacionados con la comunicacion de equipo 
-6.-exponer conociendo el tema sabiendoo que hace el programa 
+2.-Hacer que los metodos principales (buscar, actualizar, insertar y borrar) funcionen correctamente 
+3.-Aprender y comprender los comandos de python
+4.-Aprender a trabajar con algo nuevo
+5.-Aprender a solucionar problemas relacionados con la comunicacion de equipo 
+6.-Exponer conociendo el tema sabiendoo que hace el programa 
+7.-Identificar los problemas que se presenten 
+8.-Aprender a comunicarse con los demas miembros del equipo 
 
 ## 3. Integrantes
 
@@ -86,11 +88,13 @@ Describir las herramientas de desarrollo utilizadas para el desarrollo del proye
 |1|Distribución de tareas|Salida de un compañero|Distribuir de manera correcta el trabajo|Decidir quien iba hacer que cosa de manera uniforme|
 |2|Checar el codigo|Uno de los integrantes no sabia como probar su codigo|Buscar la manera que todos podamos probar wl codigo|
 |3|carga de trabajo|falta de conocimiento, eso provoca que otros integrantes realizen mas trabajo|buscar mas fuentes de informacion e aprendizaje|ponerle mas empeño al entender que hace el proyecto y saber como realizarlo|
-|4|falta de comunicacion|no nos ponemos de acuerdo en algunas questiones del trabajo|crear un grupo de whappsat o ponernos de acuerdo en clase|crear un grupo para mas flexibilidad|
+|4|falta de comunicacion|no nos ponemos de acuerdo en algunas questiones del trabajo|crear un grupo de whatsapp o ponernos de acuerdo en clase|crear un grupo de whatsapp para mas comodidad|
+|5|falta de habilidades|falta de conocimientos|pedir tutorias|tomar las tutorias o consultar en diferentes fuentes|
+
 
 ## 7. Conclusiones:
 
-Redactar las conclusiones del proyecto
+El proyecto aun no esta terminado, todavia falta completar varios aspectos del proyecto.
 
 ## 8. Bibliografía
 

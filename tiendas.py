@@ -42,10 +42,10 @@ class Tiendas:  # Clase Tiendas
                             # Agregar la fila de información
 
                             nombre = input("Inserte Nombre de la tienda: ") # Input para recibir el nombre para agregarlo
-                            altitud = input("Inserte la Altitud de la tienda: ") # Input para recibir el altitud para agregarlo
+                            longitud = input("Inserte la Longitud de la tienda: ") # Input para recibir el longitud para agregarlo
                             latitud = input("Inserte la Latitud de la tienda: ") # Input para recibir la latitud para agregarlo
                             direccion = input("Inserte la Direccion de la tienda: ") # Input para recibir la direccion para agregarlo
-                            fila = [id, nombre, altitud, latitud, direccion] # La variable "fila" es asignada con los valores anteriormente dados de "sku", "nombre", "unidad"
+                            fila = [id, nombre, longitud, latitud, direccion] # La variable "fila" es asignada con los valores anteriormente dados de "sku", "nombre", "unidad"
                             writer.writerow(fila) # Utiliza el objeto "writer" para poder sobreescribir la fila de informacion del csv con el metodo de la libreria CSV "writerow()"
                             print("") # Espacio de tolerancia a la hora de imprimir el programa
                             print("Tienda agregada con exito")
@@ -132,7 +132,7 @@ class Tiendas:  # Clase Tiendas
                     break # break con la funcion de terminar con el if y pasar al siguiente paso
         
         nombre_nuevo = input("Ingresa el nuevo nombre de la tienda: ") # input para preguntar el nuevo nombre de la tienda
-        altitud_nuevo = input("Ingrese la nueva altitud: ") # input para preguntar la nueva altitud de la tienda
+        longitud_nuevo = input("Ingrese la nueva longitud: ") # input para preguntar la nueva longitud de la tienda
         laltitud_nuevo = input("Ingrese la nueva laltitud: ") # input para preguntar la nueva laltitud de la tienda
         direccion_nuevo = input("Ingrese la nueva direccion: ") # input para preguntar la nueva direccion de la tienda
         with open("tiendas.csv", "r") as f: # Abre el archivo para poder leer filas de informacion
@@ -145,7 +145,7 @@ class Tiendas:  # Clase Tiendas
                 if row[0] == id: # Condicion que dicta que entre los valores que hay en la columna del CSV numero 0 se encuentra el valor de la ID
                     row[0] = id_nuevo # Asignacion de valor a la columna 0 en la fila correspondiente del CSV
                     row[1] = nombre_nuevo # Asignacion de valor a la columna 1 en la fila correspondiente del CSV
-                    row[2] = altitud_nuevo # Asignacion de valor a la columna 2 en la fila correspondiente del CSV
+                    row[2] = longitud_nuevo # Asignacion de valor a la columna 2 en la fila correspondiente del CSV
                     row[3] = laltitud_nuevo # Asignacion de valor a la columna 3 en la fila correspondiente del CSV
                     row[4] = direccion_nuevo # Asignacion de valor a la columna 3 en la fila correspondiente del CSV
                 writer.writerow(row) # Finalmente sobreescribe con este metodo la fila de informacion de la tienda

@@ -190,9 +190,25 @@ class Despensa:  # Clase Despensa
         
         print("La despensa fue actualizada de forma exitosa") # Notifica con un print de que el producto fue actualizado de forma exitosa
 
-    def valorMinimoProducto(self,sku:str) -> None: # Metodo para mostrar el valor minimo de un producto
-        # TODO programar el método valorMinimoProducto()
-        return False # Regresa False si ocurrio un error en el metodo
+   def valorMinimoProducto(self):
+        sku = input("Inserte el producto a checar ") # Input para pedir el SKU
+        with open('despensa.csv') as file: # Abrir el archivo CSV
+            reader = csv.DictReader(file) # Leer el archivo CSV
+            precio_minimo = 999999999999999999999999999999999999999999999  # Inicializar el precio mínimo como el precio de la primera fila que coincide con el SKU            
+            filas_precio_minimo = [] # Inicializar la lista de filas correspondientes al precio mínimo como vacía
+
+            for row in reader: # Iterar sobre cada fila del archivo CSV
+                if row['sku'] == sku and (precio_minimo is None or float(row['precio_unitario']) <= precio_minimo): # Si el SKU de la fila coincide con el SKU proporcionado y el precio mínimo no ha sido inicializado
+                    if float(row['precio_unitario']) < precio_minimo: # Si el precio es menor que el precio mínimo actual, borrar la lista de filas correspondientes al precio mínimo
+                        filas_precio_minimo = [] 
+                    precio_minimo = float(row['precio_unitario']) # Actualizar el precio mínimo
+                    filas_precio_minimo.append(row) # Agregar la fila correspondiente al precio mínimo a la lista
+            if filas_precio_minimo: # Si se encontró alguna fila con precio mínimo
+                for fila in filas_precio_minimo: # Imprimir todas las filas correspondientes al precio mínimo
+                    print(fila) # Imprime las filas con el precio minimo
+            else:
+                # Si no se encontró ninguna fila con precio mínimo, imprimir un mensaje de error
+                print(f"No se encontró ninguna fila con precio mínimo para el SKU {sku}")
 
    def valorMaximoProducto(sku):
      

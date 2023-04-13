@@ -1,4 +1,4 @@
-id_tienda,nombre,altitud,latitud,direccion
-1,Tienda 1,25.123,-90.123,Centro Tulancingo
-2,Tienda 2,25.234,-90.234,Centro Santiago
-3,Tienda 3,25.333,-98.000,Plaza Patio
+id_tienda,nombre,longitud,latitud,direccion
+1,Bodega Aurrera,20.095151,-98.364192,"Blvrd E Zapata 218, Nueva Morelos, 43610 Tulancingo de Bravo, Hgo".
+2,Walmart,20.0751951,-98.3830341,"Lázaro Cárdenas 903, Santa Ana, 43669 Tulancingo de Bravo, Hgo".
+3,Mega Soriana,20.0763339,-98.3862058,"Carretera Mexico - Tuxpan Km 137.5, Santa Ana, 43669 Tulancingo de Bravo, Hgo".

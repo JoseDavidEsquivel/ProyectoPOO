@@ -194,11 +194,31 @@ class Despensa:  # Clase Despensa
         # TODO programar el método valorMinimoProducto()
         return False # Regresa False si ocurrio un error en el metodo
 
-    def valorMaximoProducto(self,sku:str) -> None: # Metodo para mostrar el valor minimo de un producto
-        # TODO programar el método valorMinimoProducto()
-        return False # Regresa False si ocurrio un error en el metodo
-    
+   def valorMaximoProducto(sku):
+     
+        sku = input("Inserte el producto a checar ")
+        with open('despensa.csv') as file: # Abrir el archivo CSV
+            reader = csv.DictReader(file) # Leer el archivo CSV
+            precio_maximo = None # Inicializar el precio máximo como el precio de la primera fila que coincide con el SKU
+            filas_precio_maximo = [] # Inicializar la lista de filas correspondientes al precio máximo como vacía
+            
+            for row in reader: # Iterar sobre cada fila del archivo CSV
+                if row['sku'] == sku and (precio_maximo is None or float(row['precio_unitario']) > precio_maximo): # Si el SKU de la fila coincide con el SKU proporcionado y el precio máximo no ha sido inicializado
+                    precio_maximo = float(row['precio_unitario']) # Actualizar el precio máximo
+                    filas_precio_maximo = [row] # Limpiar la lista de filas correspondientes al precio máximo y añadir la fila actual
+                elif row['sku'] == sku and float(row['precio_unitario']) == precio_maximo: # Si el SKU de la fila coincide con el SKU proporcionado y el precio es igual al precio máximo
+                    filas_precio_maximo.append(row) # Añadir la fila actual a la lista de filas correspondientes al precio máximo
+
+            if filas_precio_maximo: # Si se encontró algún precio máximo
+                for fila_precio_maximo in filas_precio_maximo: # Imprimir todas las filas correspondientes al precio máximo
+                    print(fila_precio_maximo) # Imprime las filas que contengan el precio maximo
+
+            else: # En caso
+                # Si no se encontró ningún SKU, imprimir un mensaje de error
+                print(f"No se encontró ningún SKU {sku}") # Mensaje de error
+                
 despensa = Despensa() # Crea un objeto de la clase despensa
 #despensa.listarDespensa() # Llama al metodo listarDespensa()
 #despensa.buscarDespensa() # Llama al metodo buscarDespensa()
 #despensa.borrarDespensa() # Llama al metodo borrarDespensa()
+despensa.ValormaximiProducto()# llama al metodo Valor maximo

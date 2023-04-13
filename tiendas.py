@@ -67,7 +67,7 @@ class Tiendas:  # Clase Tiendas
                 encontrado = False # Variable para indicar si se encontró la tienda o no
 
                 for row in reader: # Recorre todos los registros encontrados y almacena temporalmente cada uno en row
-                    if row['id'] == id_buscar: # Compara el id buscando
+                    if row['id_tienda'] == id_buscar: # Compara el id buscando
                         print(f"Registro encontrado: {row}") # Imprime la fila encontrada
                         encontrado = True # Marca la tienda como encontrada
                         break # Termina el bucle ya que se encontró el producto

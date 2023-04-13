@@ -189,7 +189,7 @@ class Despensa:  # Clase Despensa
                 writer.writerow(row) # Finalmente sobreescribe con este metodo la fila de informacion del producto
         
         print("La despensa fue actualizada de forma exitosa") # Notifica con un print de que el producto fue actualizado de forma exitosa
-
+    
     def valorMinimoProducto(self):
         sku = input("Inserte el producto a checar ") # Input para pedir el SKU
         with open('despensa.csv') as file: # Abrir el archivo CSV
@@ -234,7 +234,4 @@ class Despensa:  # Clase Despensa
                 print(f"No se encontró ningún SKU {sku}") # Mensaje de error
                 
 despensa = Despensa() # Crea un objeto de la clase despensa
-#despensa.listarDespensa() # Llama al metodo listarDespensa()
-#despensa.buscarDespensa() # Llama al metodo buscarDespensa()
-#despensa.borrarDespensa() # Llama al metodo borrarDespensa()
-despensa.ValormaximiProducto()# llama al metodo Valor maximo
+

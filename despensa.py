@@ -190,7 +190,7 @@ class Despensa:  # Clase Despensa
         
         print("La despensa fue actualizada de forma exitosa") # Notifica con un print de que el producto fue actualizado de forma exitosa
 
-   def valorMinimoProducto(self):
+    def valorMinimoProducto(self):
         sku = input("Inserte el producto a checar ") # Input para pedir el SKU
         with open('despensa.csv') as file: # Abrir el archivo CSV
             reader = csv.DictReader(file) # Leer el archivo CSV
@@ -210,7 +210,7 @@ class Despensa:  # Clase Despensa
                 # Si no se encontró ninguna fila con precio mínimo, imprimir un mensaje de error
                 print(f"No se encontró ninguna fila con precio mínimo para el SKU {sku}")
 
-   def valorMaximoProducto(sku):
+    def valorMaximoProducto(sku):
      
         sku = input("Inserte el producto a checar ")
         with open('despensa.csv') as file: # Abrir el archivo CSV

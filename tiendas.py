@@ -106,7 +106,7 @@ class Tiendas:  # Clase Tiendas
             with open("tiendas.csv") as file: # Abre el archivo para poder leer filas de informacion
                 reader = csv.DictReader(file) # se crea un objeto con la valriable "reader"
                 for row in reader: #Se encarga de buscar un sku en el CSV
-                    if row['id'] == id: # condicion de si el valor de la columna "ID" es igual a el valor del ID dado por el usuario pasa lo siguiente
+                    if row['id_tienda'] == id: # condicion de si el valor de la columna "ID" es igual a el valor del ID dado por el usuario pasa lo siguiente
                         encontrado = True # la variable "encontrado" cambia de valor a True, dando como encontrado una ID en el csv
                         break # break con la funcion de terminar con el if y pasar al siguiente paso
             if encontrado: # condicion de que si encontrado esta en True

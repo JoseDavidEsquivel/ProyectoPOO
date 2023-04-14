@@ -89,7 +89,7 @@ class Despensa:  # Clase Despensa
                     if row['fecha'] == fecha_buscar: # Compara la fecha buscada
                         print(f"Registro encontrado: {row}") # Imprime la fila encontrada
                         encontrado = True # Marca la despensa como encontrada
-                        break # Termina el bucle ya que se encontró la despensa
+                        
 
                 if not encontrado: # If por si no exista la fecha de compra
                     print("Despensa no encontrada") # Imprime el mensaje si la despensa no se encontró
